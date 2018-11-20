@@ -70,6 +70,10 @@
 	},
 /turf/simulated/floor/outdoors/dirt/virgo3b,
 /area/mine/explored/underdark)
+"m" = (
+/obj/machinery/telecomms/relay/preset/underdark,
+/turf/simulated/floor/tiled/steel_dirty/virgo3b,
+/area/mine/explored/underdark)
 "n" = (
 /obj/structure/railing,
 /turf/simulated/floor/outdoors/dirt/virgo3b,
@@ -18705,7 +18709,7 @@ s
 s
 o
 y
-s
+m
 s
 E
 y

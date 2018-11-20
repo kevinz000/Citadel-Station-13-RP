@@ -112,6 +112,15 @@
 	},
 /turf/simulated/floor/tiled/steel_dirty/virgo3b,
 /area/outpost/mining_main/storage)
+"av" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/outpost/mining_main/maintenance)
 "aw" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/steel_dirty/virgo3b,
@@ -131,6 +140,37 @@
 "az" = (
 /turf/simulated/wall/r_wall,
 /area/outpost/mining_main/break_room)
+"aA" = (
+/obj/machinery/power/sensor{
+	long_range = 1;
+	name = "Powernet Sensor - Mining Station";
+	name_tag = "Mining Station"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/cable/green{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/outpost/mining_main/maintenance)
+"aB" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/outpost/mining_main/maintenance)
 "aC" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -159,6 +199,39 @@
 	},
 /turf/simulated/wall/r_wall,
 /area/outpost/mining_main/break_room)
+"aF" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/outpost/mining_main/maintenance)
+"aG" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable/green{
+	icon_state = "0-8"
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/outpost/mining_main/maintenance)
+"aH" = (
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/outpost/mining_main/maintenance)
 "aI" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/effect/floor_decal/borderfloor{
@@ -175,6 +248,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/outpost/mining_main/break_room)
+"aJ" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/outpost/mining_main/maintenance)
 "aK" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -202,6 +283,20 @@
 	},
 /turf/simulated/floor/tiled,
 /area/outpost/mining_main/break_room)
+"aL" = (
+/obj/effect/floor_decal/techfloor,
+/obj/machinery/power/smes/buildable{
+	charge = 2500;
+	RCon_tag = "Substation - Mining Outpost"
+	},
+/obj/structure/cable/green{
+	icon_state = "0-8"
+	},
+/obj/structure/cable/green{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/outpost/mining_main/maintenance)
 "aM" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -218,6 +313,13 @@
 /obj/item/weapon/storage/belt,
 /turf/simulated/floor/tiled,
 /area/outpost/mining_main/break_room)
+"aN" = (
+/obj/effect/floor_decal/techfloor,
+/obj/machinery/power/breakerbox/activated{
+	RCon_tag = "Mining Outpost Substation Bypass"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/outpost/mining_main/maintenance)
 "aR" = (
 /obj/structure/window/reinforced/full,
 /obj/machinery/door/firedoor/glass,
@@ -526,16 +628,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/mine/explored)
-"jq" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 8
-	},
-/obj/structure/cable/green,
-/obj/structure/cable/heavyduty{
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/outpost/mining_main/maintenance)
 "jV" = (
 /obj/machinery/atmospherics/omni/atmos_filter{
 	tag_east = 1;
@@ -661,37 +753,6 @@
 	tag_east = 1;
 	tag_north = 4;
 	tag_west = 2
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/outpost/mining_main/maintenance)
-"si" = (
-/obj/structure/cable/green{
-	icon_state = "0-8"
-	},
-/obj/structure/cable/green{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/sensor{
-	long_range = 1;
-	name = "Powernet Sensor - Mining Station";
-	name_tag = "Mining Station"
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/outpost/mining_main/maintenance)
-"so" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/outpost/mining_main/maintenance)
@@ -3588,8 +3649,8 @@ ay
 Gw
 XR
 xC
-so
-jq
+av
+aB
 xA
 aR
 ng
@@ -3730,9 +3791,9 @@ ay
 IX
 uo
 HS
-si
-MV
-KJ
+aA
+aF
+aJ
 SF
 ab
 Il
@@ -3873,8 +3934,8 @@ Pr
 jV
 mH
 ol
-MV
-KJ
+aG
+aL
 SF
 ab
 Il
@@ -4015,8 +4076,8 @@ TC
 sg
 kc
 Hl
-MV
-KJ
+aH
+aN
 SF
 ab
 Il
