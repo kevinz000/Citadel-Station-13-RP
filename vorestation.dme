@@ -111,6 +111,7 @@
 #include "code\__HELPERS\_lists_tg.dm"
 #include "code\__HELPERS\_lists_vr_old.dm"
 #include "code\__HELPERS\_logging.dm"
+#include "code\__HELPERS\animated_emote.dm"
 #include "code\__HELPERS\atmospherics.dm"
 #include "code\__HELPERS\atom_movables.dm"
 #include "code\__HELPERS\events.dm"
