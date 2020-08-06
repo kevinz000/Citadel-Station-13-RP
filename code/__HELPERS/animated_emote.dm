@@ -22,12 +22,12 @@
 	rarm.appearance = H
 	lleg.appearance = H
 	rleg.appearance = H
-	head.layer += 0.1
-	body.layer += 0.1
-	larm.layer += 0.1
-	rarm.layer += 0.1
-	lleg.layer += 0.1
-	rleg.layer += 0.1
+	head.plane += 1
+	body.plane += 1
+	larm.plane += 1
+	rarm.plane += 1
+	lleg.plane += 1
+	rleg.plane += 1
 	returned = list(head, body, larm, rarm, lleg, rleg)
 	head.filters += filter(type = "alpha", icon = icon(maskfile, "mask_head"))
 	body.filters += filter(type = "alpha", icon = icon(maskfile, "mask_body"))
@@ -48,8 +48,8 @@
 	// 10 ds total
 	var/obj/effect/overlay/larm = effects[3]
 	var/obj/effect/overlay/rarm = effects[4]
-	H.vis_contents += larm
-	H.vis_contents += rarm
+	//H.vis_contents += larm
+	//H.vis_contents += rarm
 	var/matrix/ltransform = matrix()
 	var/matrix/rtransform = matrix()
 	ltransform.Turn(90)
@@ -60,7 +60,7 @@
 	animate(larm, transform = matrix(), time = 2)
 	animate(rarm, transform = matrix(), time = 2)
 	sleep(2)
-	H.vis_contents -= flarms
-	H.filters -= flarm
-	H.filters -= frarm
+	H.vis_contents -= larm
+	H.vis_contents -= rarm
+	H.filters -= flarms
 	QDEL_LIST(effects)
